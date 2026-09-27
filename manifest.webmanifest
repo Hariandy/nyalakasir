@@ -1,0 +1,56 @@
+{
+ "id": ".",
+ "name": "Nyala Kasir",
+ "short_name": "Nyala Kasir",
+ "description": "Kasir UMKM mobile-first: HPP otomatis, stok, laporan laba. Bisa offline.",
+ "lang": "id",
+ "start_url": "./?source=pwa",
+ "scope": "./",
+ "display": "standalone",
+ "display_override": [
+  "standalone",
+  "minimal-ui",
+  "browser"
+ ],
+ "orientation": "portrait",
+ "prefer_related_applications": false,
+ "background_color": "#0e142d",
+ "theme_color": "#0e142d",
+ "categories": [
+  "business",
+  "finance",
+  "productivity"
+ ],
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Laporan",
+   "url": "./?tab=history",
+   "icons": [
+    {
+     "src": "icons/icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  }
+ ]
+}
